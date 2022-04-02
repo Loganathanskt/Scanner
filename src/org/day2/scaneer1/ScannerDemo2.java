@@ -17,7 +17,8 @@ public class ScannerDemo2 {
 	
 	public static void main(String[] args) {
 		Scanner scnObj = new Scanner(System.in);
-		System.out.println("Please Enter studentId : ");
+		
+		System.out.println("Can you Please Enter studentId : ");
 		int studentId = scnObj.nextInt();
 		
 		scnObj.nextLine();
